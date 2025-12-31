@@ -96,8 +96,8 @@ static void send_hid_report(uint8_t report_id)
   if ( !tud_hid_ready() ) return;
 
   // get the direction
-  randX = 1 + rand() % 6;
-  randY = 1 + rand() % 6;
+  randX = 0 + rand() % 3;
+  randY = 0 + rand() % 3;
   randDirection = rand() % 2;
   if (randDirection)
   {

@@ -156,7 +156,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/mouse-jiggler.dir/main.c.o
  .bss           0x00000000        0x0 CMakeFiles/mouse-jiggler.dir/main.c.o
  .text.hid_task
-                0x00000000       0x74 CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x00000000       0x70 CMakeFiles/mouse-jiggler.dir/main.c.o
  .text          0x00000000        0x0 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
  .data          0x00000000        0x0 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
  .bss           0x00000000        0x0 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
@@ -2887,7 +2887,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x3988
+.text           0x10000100     0x3978
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -2950,458 +2950,458 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x10000288       0x98 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000320       0x8c CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x10000320       0x84 CMakeFiles/mouse-jiggler.dir/main.c.o
                 0x10000320                main
  .text.tud_mount_cb
-                0x100003ac        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
-                0x100003ac                tud_mount_cb
+                0x100003a4        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x100003a4                tud_mount_cb
  .text.tud_resume_cb
-                0x100003b8        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
-                0x100003b8                tud_resume_cb
+                0x100003b0        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x100003b0                tud_resume_cb
  .text.tud_umount_cb
-                0x100003c4        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
-                0x100003c4                tud_umount_cb
+                0x100003bc        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x100003bc                tud_umount_cb
  .text.tud_suspend_cb
-                0x100003d0        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
-                0x100003d0                tud_suspend_cb
+                0x100003c8        0xc CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x100003c8                tud_suspend_cb
  .text.tud_hid_report_complete_cb
-                0x100003dc       0x74 CMakeFiles/mouse-jiggler.dir/main.c.o
-                0x100003dc                tud_hid_report_complete_cb
+                0x100003d4       0x6c CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x100003d4                tud_hid_report_complete_cb
  .text.tud_hid_get_report_cb
-                0x10000450        0x4 CMakeFiles/mouse-jiggler.dir/main.c.o
-                0x10000450                tud_hid_get_report_cb
+                0x10000440        0x4 CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x10000440                tud_hid_get_report_cb
  .text.tud_hid_set_report_cb
-                0x10000454        0x4 CMakeFiles/mouse-jiggler.dir/main.c.o
-                0x10000454                tud_hid_set_report_cb
+                0x10000444        0x4 CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x10000444                tud_hid_set_report_cb
  .text.tud_descriptor_device_cb
-                0x10000458        0x8 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
-                0x10000458                tud_descriptor_device_cb
+                0x10000448        0x8 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10000448                tud_descriptor_device_cb
  .text.tud_hid_descriptor_report_cb
-                0x10000460        0x8 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
-                0x10000460                tud_hid_descriptor_report_cb
+                0x10000450        0x8 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10000450                tud_hid_descriptor_report_cb
  .text.tud_descriptor_configuration_cb
-                0x10000468        0x8 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
-                0x10000468                tud_descriptor_configuration_cb
+                0x10000458        0x8 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10000458                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10000470       0x74 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
-                0x10000470                tud_descriptor_string_cb
+                0x10000460       0x74 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10000460                tud_descriptor_string_cb
  .text.gpio_set_function
-                0x100004e4       0x34 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-                0x100004e4                gpio_set_function
+                0x100004d4       0x34 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x100004d4                gpio_set_function
  .text.gpio_init
-                0x10000518       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-                0x10000518                gpio_init
+                0x10000508       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x10000508                gpio_init
  .text.rp2040_chip_version
-                0x10000558        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
-                0x10000558                rp2040_chip_version
- .text.panic    0x10000564       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
-                0x10000564                panic
+                0x10000548        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
+                0x10000548                rp2040_chip_version
+ .text.panic    0x10000554       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x10000554                panic
  .text.hw_claim_or_assert
-                0x10000594       0x44 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
-                0x10000594                hw_claim_or_assert
+                0x10000584       0x44 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x10000584                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x100005d8       0x88 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
-                0x100005d8                hw_claim_unused_from_range
+                0x100005c8       0x88 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x100005c8                hw_claim_unused_from_range
  .text.next_striped_spin_lock_num
-                0x10000660       0x18 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-                0x10000660                next_striped_spin_lock_num
+                0x10000650       0x18 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x10000650                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000678       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-                0x10000678                spin_lock_claim_unused
+                0x10000668       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x10000668                spin_lock_claim_unused
  .text.spin_locks_reset
-                0x1000069c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-                0x1000069c                spin_locks_reset
+                0x1000068c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x1000068c                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x100006b8       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x100006b8                runtime_init_per_core_irq_priorities
+                0x100006a8       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x100006a8                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x100006dc       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x100006dc                irq_set_enabled
+                0x100006cc       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x100006cc                irq_set_enabled
  .text.irq_set_exclusive_handler
-                0x10000700       0x54 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x10000700                irq_set_exclusive_handler
+                0x100006f0       0x54 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x100006f0                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000754      0x1f4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x10000754                irq_add_shared_handler
+                0x10000744      0x1f4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x10000744                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000948      0x1d4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x10000948                irq_remove_handler
+                0x10000938      0x1d4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x10000938                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000b1c       0xb4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x10000b1c                irq_add_tail_to_free_list
+                0x10000b0c       0xb4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x10000b0c                irq_add_tail_to_free_list
  .text.lock_init
-                0x10000bd0       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
-                0x10000bd0                lock_init
+                0x10000bc0       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
+                0x10000bc0                lock_init
  .text.runtime_init_mutex
-                0x10000be0       0x50 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
-                0x10000be0                runtime_init_mutex
+                0x10000bd0       0x50 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x10000bd0                runtime_init_mutex
  .text.mutex_init
-                0x10000c30       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
-                0x10000c30                mutex_init
+                0x10000c20       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x10000c20                mutex_init
  .text.critical_section_init
-                0x10000c4c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
-                0x10000c4c                critical_section_init
+                0x10000c3c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
+                0x10000c3c                critical_section_init
  .text.sleep_until_callback
-                0x10000c68       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10000c58       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
  .text.alarm_pool_irq_handler
-                0x10000c98      0x300 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10000c88      0x300 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
  .text.runtime_init_default_alarm_pool
-                0x10000f98       0xdc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
-                0x10000f98                runtime_init_default_alarm_pool
+                0x10000f88       0xdc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10000f88                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x10001074       0xb0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
-                0x10001074                alarm_pool_add_alarm_at_force_in_context
+                0x10001064       0xb0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10001064                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x10001124       0x74 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
-                0x10001124                alarm_pool_cancel_alarm
+                0x10001114       0x74 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10001114                alarm_pool_cancel_alarm
  .text.sleep_ms
-                0x10001198       0xfc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
-                0x10001198                sleep_ms
+                0x10001188       0xfc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10001188                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001294      0x10c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
-                0x10001294                best_effort_wfe_or_timeout
+                0x10001284      0x10c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10001284                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x100013a0       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x100013a0                timer_hardware_alarm_claim
+                0x10001390       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x10001390                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x100013b4       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x100013b4                timer_time_us_64
+                0x100013a4       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x100013a4                timer_time_us_64
  .text.time_us_64
-                0x100013c4       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x100013c4                time_us_64
+                0x100013b4       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x100013b4                time_us_64
  .text.busy_wait_us
-                0x100013d8       0x68 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x100013d8                busy_wait_us
+                0x100013c8       0x68 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x100013c8                busy_wait_us
  .text.busy_wait_until
-                0x10001440       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x10001440                busy_wait_until
+                0x10001430       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x10001430                busy_wait_until
  .text.uart_init
-                0x10001460      0x120 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-                0x10001460                uart_init
+                0x10001450      0x120 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+                0x10001450                uart_init
  .text.clock_configure_int_divider
-                0x10001580       0xf4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x10001580                clock_configure_int_divider
+                0x10001570       0xf4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x10001570                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x10001674       0xe8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x10001674                clock_configure_undivided
+                0x10001664       0xe8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x10001664                clock_configure_undivided
  .text.clock_get_hz
-                0x1000175c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x1000175c                clock_get_hz
+                0x1000174c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x1000174c                clock_get_hz
  .text.pll_init
-                0x10001768       0xa4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-                0x10001768                pll_init
+                0x10001758       0xa4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+                0x10001758                pll_init
  .text.tick_start
-                0x1000180c       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
-                0x1000180c                tick_start
+                0x100017fc       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+                0x100017fc                tick_start
  .text.rom_func_lookup
-                0x1000181c       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-                0x1000181c                rom_func_lookup
+                0x1000180c       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x1000180c                rom_func_lookup
  .text.rom_data_lookup
-                0x1000182c       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-                0x1000182c                rom_data_lookup
+                0x1000181c       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x1000181c                rom_data_lookup
  .text.rom_funcs_lookup
-                0x1000183c       0x44 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-                0x1000183c                rom_funcs_lookup
+                0x1000182c       0x44 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x1000182c                rom_funcs_lookup
  .text.xosc_init
-                0x10001880       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-                0x10001880                xosc_init
+                0x10001870       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+                0x10001870                xosc_init
  .text.first_per_core_initializer
-                0x100018a8        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x10001898        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .text.hard_assertion_failure
-                0x100018ac        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x100018ac                hard_assertion_failure
+                0x1000189c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x1000189c                hard_assertion_failure
  .text.runtime_run_initializers
-                0x100018b8       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x100018b8                runtime_run_initializers
+                0x100018a8       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x100018a8                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x100018e0       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x100018e0                runtime_init_early_resets
+                0x100018d0       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x100018d0                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x1000190c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x1000190c                runtime_init_usb_power_down
+                0x100018fc       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x100018fc                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x10001928       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001928                runtime_init_post_clock_resets
+                0x10001918       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001918                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x10001948       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001948                runtime_init_rp2040_gpio_ie_disable
+                0x10001938       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001938                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x1000195c        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x1000195c                runtime_init_spin_locks_reset
+                0x1000194c        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x1000194c                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x10001964       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001964                runtime_init_install_ram_vector_table
+                0x10001954       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001954                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10001980       0xd8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
-                0x10001980                runtime_init_clocks
- .text          0x10001a58       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                0x10001970       0xd8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+                0x10001970                runtime_init_clocks
+ .text          0x10001a48       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
  .text.__wrap___aeabi_idiv
-                0x10001a68       0x50 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-                0x10001a68                __wrap___aeabi_idivmod
-                0x10001a68                divmod_s32s32
-                0x10001a68                div_s32s32
-                0x10001a68                __wrap___aeabi_idiv
-                0x10001a70                divmod_s32s32_unsafe
-                0x10001a9c                divmod_s32s32_savestate
+                0x10001a58       0x50 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x10001a58                __wrap___aeabi_idivmod
+                0x10001a58                divmod_s32s32
+                0x10001a58                div_s32s32
+                0x10001a58                __wrap___aeabi_idiv
+                0x10001a60                divmod_s32s32_unsafe
+                0x10001a8c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10001ab8       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-                0x10001ab8                __wrap___aeabi_uidiv
-                0x10001ab8                __wrap___aeabi_uidivmod
-                0x10001ab8                div_u32u32
-                0x10001ab8                divmod_u32u32
-                0x10001ac0                divmod_u32u32_unsafe
-                0x10001ae8                divmod_u32u32_savestate
+                0x10001aa8       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x10001aa8                __wrap___aeabi_uidiv
+                0x10001aa8                __wrap___aeabi_uidivmod
+                0x10001aa8                div_u32u32
+                0x10001aa8                divmod_u32u32
+                0x10001ab0                divmod_u32u32_unsafe
+                0x10001ad8                divmod_u32u32_savestate
  .text.__aeabi_double_init
-                0x10001b04       0xa4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
-                0x10001b04                __aeabi_double_init
+                0x10001af4       0xa4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+                0x10001af4                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10001ba8       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-                0x10001ba8                double_table_shim_on_use_helper
+                0x10001b98       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x10001b98                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10001bd4       0x32 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-                0x10001bd4                __wrap___aeabi_lmul
- *fill*         0x10001c06        0x2 
+                0x10001bc4       0x32 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+                0x10001bc4                __wrap___aeabi_lmul
+ *fill*         0x10001bf6        0x2 
  .text.__aeabi_float_init
-                0x10001c08       0x64 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
-                0x10001c08                __aeabi_float_init
+                0x10001bf8       0x64 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+                0x10001bf8                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10001c6c       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
-                0x10001c6c                float_table_shim_on_use_helper
- .text          0x10001c98       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-                0x10001c98                __aeabi_mem_init
- .text.memset   0x10001ca8        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-                0x10001ca8                __wrap_memset
- .text.memcpy   0x10001cb4        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-                0x10001cb4                __wrap___aeabi_memcpy
-                0x10001cb4                __wrap_memcpy
+                0x10001c5c       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+                0x10001c5c                float_table_shim_on_use_helper
+ .text          0x10001c88       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x10001c88                __aeabi_mem_init
+ .text.memset   0x10001c98        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x10001c98                __wrap_memset
+ .text.memcpy   0x10001ca4        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x10001ca4                __wrap___aeabi_memcpy
+                0x10001ca4                __wrap_memcpy
  .text._out_char
-                0x10001cc0       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x10001cb0       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text.weak_raw_vprintf
-                0x10001cd0       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-                0x10001cd0                weak_raw_vprintf
- .text._exit    0x10001d00        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x10001d00                _exit
- .text.exit     0x10001d04        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x10001d04                exit
+                0x10001cc0       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x10001cc0                weak_raw_vprintf
+ .text._exit    0x10001cf0        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x10001cf0                _exit
+ .text.exit     0x10001cf4        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x10001cf4                exit
  .text.runtime_init
-                0x10001d0c       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x10001d0c                runtime_init
+                0x10001cfc       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x10001cfc                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x10001d38       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001d28       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_out_chars_crlf
-                0x10001d48       0xb0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001d38       0xb0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_put_string
-                0x10001df8       0xfc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x10001df8                stdio_put_string
+                0x10001de8       0xfc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001de8                stdio_put_string
  .text.stdio_set_driver_enabled
-                0x10001ef4       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x10001ef4                stdio_set_driver_enabled
+                0x10001ee4       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001ee4                stdio_set_driver_enabled
  .text.__wrap_putchar
-                0x10001f24       0x94 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x10001f24                stdio_putchar
-                0x10001f24                __wrap_putchar
+                0x10001f14       0x94 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001f14                stdio_putchar
+                0x10001f14                __wrap_putchar
  .text.__wrap_puts
-                0x10001fb8       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x10001fb8                __wrap_puts
-                0x10001fb8                stdio_puts
+                0x10001fa8       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001fa8                __wrap_puts
+                0x10001fa8                stdio_puts
  .text.stdio_uart_out_chars
-                0x10001ff4       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x10001fe4       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_in_chars
-                0x10002040       0x90 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-                0x10002040                stdio_uart_in_chars
+                0x10002030       0x90 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x10002030                stdio_uart_in_chars
  .text.on_uart_rx
-                0x100020d0       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x100020c0       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_out_flush
-                0x100020f8       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x100020e8       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_set_chars_available_callback
-                0x1000210c       0x84 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x100020fc       0x84 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .text.stdio_uart_init_full
-                0x10002190       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-                0x10002190                stdio_uart_init_full
+                0x10002180       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x10002180                stdio_uart_init_full
  .text.dcd_init
-                0x100021cc       0x90 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x100021cc                dcd_init
+                0x100021bc       0x90 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x100021bc                dcd_init
  .text.dcd_int_enable
-                0x1000225c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x1000225c                dcd_int_enable
+                0x1000224c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x1000224c                dcd_int_enable
  .text.dcd_set_address
-                0x10002268       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x10002268                dcd_set_address
+                0x10002258       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x10002258                dcd_set_address
  .text.dcd_remote_wakeup
-                0x1000227c       0x18 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x1000227c                dcd_remote_wakeup
+                0x1000226c       0x18 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x1000226c                dcd_remote_wakeup
  .text.dcd_sof_enable
-                0x10002294       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x10002294                dcd_sof_enable
+                0x10002284       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x10002284                dcd_sof_enable
  .text.dcd_edpt0_status_complete
-                0x100022b0       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x100022b0                dcd_edpt0_status_complete
+                0x100022a0       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x100022a0                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x100022cc      0x114 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x100022cc                dcd_edpt_open
+                0x100022bc      0x114 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x100022bc                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x100023e0        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x100023e0                dcd_edpt_close_all
+                0x100023d0        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x100023d0                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x100023e8       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x100023e8                dcd_edpt_xfer
+                0x100023d8       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x100023d8                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x1000240c       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x1000240c                dcd_edpt_stall
+                0x100023fc       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x100023fc                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x10002448       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-                0x10002448                dcd_edpt_clear_stall
+                0x10002438       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x10002438                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x10002478       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-                0x10002478                rp2040_usb_init
+                0x10002468       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+                0x10002468                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x100024b8       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-                0x100024b8                hw_endpoint_xfer_start
+                0x100024a8       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+                0x100024a8                hw_endpoint_xfer_start
  .text.tud_vendor_control_xfer_cb
-                0x100024f8        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x100024f8                tud_vendor_control_xfer_cb
+                0x100024e8        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x100024e8                tud_vendor_control_xfer_cb
  .text.tud_event_hook_cb
-                0x100024fc        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x100024fc                tud_event_hook_cb
+                0x100024ec        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x100024ec                tud_event_hook_cb
  .text.tud_sof_cb
-                0x10002500        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002500                tud_sof_cb
+                0x100024f0        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x100024f0                tud_sof_cb
  .text.tud_descriptor_bos_cb
-                0x10002504        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002504                tud_descriptor_bos_cb
+                0x100024f4        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x100024f4                tud_descriptor_bos_cb
  .text.tud_descriptor_device_qualifier_cb
-                0x10002508        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002508                tud_descriptor_device_qualifier_cb
+                0x100024f8        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x100024f8                tud_descriptor_device_qualifier_cb
  .text.tud_descriptor_other_speed_configuration_cb
-                0x1000250c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x1000250c                tud_descriptor_other_speed_configuration_cb
+                0x100024fc        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x100024fc                tud_descriptor_other_speed_configuration_cb
  .text.tud_mounted
-                0x10002510       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002510                tud_mounted
+                0x10002500       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002500                tud_mounted
  .text.tud_suspended
-                0x10002520       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002520                tud_suspended
+                0x10002510       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002510                tud_suspended
  .text.tud_remote_wakeup
-                0x10002530       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002530                tud_remote_wakeup
+                0x10002520       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002520                tud_remote_wakeup
  .text.tud_rhport_init
-                0x10002560       0xec CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002560                tud_rhport_init
+                0x10002550       0xec CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002550                tud_rhport_init
  .text.tud_task_ext
-                0x1000264c      0x7c0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x1000264c                tud_task_ext
+                0x1000263c      0x7c0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x1000263c                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x10002e0c       0x9c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002e0c                usbd_open_edpt_pair
+                0x10002dfc       0x9c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002dfc                usbd_open_edpt_pair
  .text.usbd_edpt_claim
-                0x10002ea8       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002ea8                usbd_edpt_claim
+                0x10002e98       0x28 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002e98                usbd_edpt_claim
  .text.usbd_edpt_xfer
-                0x10002ed0       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002ed0                usbd_edpt_xfer
+                0x10002ec0       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002ec0                usbd_edpt_xfer
  .text.usbd_edpt_busy
-                0x10002f1c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-                0x10002f1c                usbd_edpt_busy
+                0x10002f0c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10002f0c                usbd_edpt_busy
  .text.tud_control_status
-                0x10002f38       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-                0x10002f38                tud_control_status
+                0x10002f28       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x10002f28                tud_control_status
  .text.tud_control_xfer
-                0x10002f64       0xa8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-                0x10002f64                tud_control_xfer
+                0x10002f54       0xa8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x10002f54                tud_control_xfer
  .text.usbd_control_reset
-                0x1000300c       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-                0x1000300c                usbd_control_reset
+                0x10002ffc       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x10002ffc                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x10003020        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-                0x10003020                usbd_control_set_complete_callback
+                0x10003010        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x10003010                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x1000302c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-                0x1000302c                usbd_control_set_request
+                0x1000301c       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x1000301c                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10003048       0xec CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-                0x10003048                usbd_control_xfer_cb
+                0x10003038       0xec CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x10003038                usbd_control_xfer_cb
  .text.tud_hid_set_protocol_cb
-                0x10003134        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003134                tud_hid_set_protocol_cb
+                0x10003124        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003124                tud_hid_set_protocol_cb
  .text.tud_hid_set_idle_cb
-                0x10003138        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003138                tud_hid_set_idle_cb
+                0x10003128        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003128                tud_hid_set_idle_cb
  .text.tud_hid_report_failed_cb
-                0x1000313c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x1000313c                tud_hid_report_failed_cb
+                0x1000312c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x1000312c                tud_hid_report_failed_cb
  .text.tud_hid_n_ready
-                0x10003140       0x38 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003140                tud_hid_n_ready
+                0x10003130       0x38 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003130                tud_hid_n_ready
  .text.tud_hid_n_mouse_report
-                0x10003178       0x8c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003178                tud_hid_n_mouse_report
+                0x10003168       0x8c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003168                tud_hid_n_mouse_report
  .text.hidd_init
-                0x10003204       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003204                hidd_init
+                0x100031f4       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x100031f4                hidd_init
  .text.hidd_deinit
-                0x10003218        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003218                hidd_deinit
+                0x10003208        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003208                hidd_deinit
  .text.hidd_reset
-                0x1000321c       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x1000321c                hidd_reset
+                0x1000320c       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x1000320c                hidd_reset
  .text.hidd_open
-                0x10003230       0x8c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003230                hidd_open
+                0x10003220       0x8c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003220                hidd_open
  .text.hidd_control_xfer_cb
-                0x100032bc      0x198 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x100032bc                hidd_control_xfer_cb
+                0x100032ac      0x198 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x100032ac                hidd_control_xfer_cb
  .text.hidd_xfer_cb
-                0x10003454       0x7c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-                0x10003454                hidd_xfer_cb
+                0x10003444       0x7c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003444                hidd_xfer_cb
  .text.tusb_rhport_init
-                0x100034d0       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
-                0x100034d0                tusb_rhport_init
+                0x100034c0       0x4c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+                0x100034c0                tusb_rhport_init
  .text.tu_edpt_claim
-                0x1000351c       0x50 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
-                0x1000351c                tu_edpt_claim
+                0x1000350c       0x50 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+                0x1000350c                tu_edpt_claim
  .text.tu_edpt_validate
-                0x1000356c       0x7c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
-                0x1000356c                tu_edpt_validate
+                0x1000355c       0x7c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+                0x1000355c                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x100035e8       0x34 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
-                0x100035e8                tu_edpt_bind_driver
+                0x100035d8       0x34 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+                0x100035d8                tu_edpt_bind_driver
  .text.tu_fifo_read
-                0x1000361c       0x9c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-                0x1000361c                tu_fifo_read
+                0x1000360c       0x9c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+                0x1000360c                tu_fifo_read
  .text.tu_fifo_write
-                0x100036b8       0xa4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-                0x100036b8                tu_fifo_write
+                0x100036a8       0xa4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+                0x100036a8                tu_fifo_write
  .text.tu_fifo_clear
-                0x1000375c       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-                0x1000375c                tu_fifo_clear
+                0x1000374c       0x40 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+                0x1000374c                tu_fifo_clear
  .text.board_init
-                0x1000379c       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
-                0x1000379c                board_init
+                0x1000378c       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x1000378c                board_init
  .text.board_led_write
-                0x100037cc       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
-                0x100037cc                board_led_write
+                0x100037bc       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x100037bc                board_led_write
  .text.startup._retrieve_unique_id_on_boot
-                0x100037e0       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+                0x100037d0       0x10 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
  .text.flash_get_unique_id
-                0x100037f0       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-                0x100037f0                flash_get_unique_id
- .text          0x1000382c       0x48 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
-                0x1000382c                srand
-                0x10003840                rand
- .text          0x10003874       0x5c /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
-                0x10003874                strlen
- .text          0x100038d0       0x28 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
-                0x100038d0                __libc_fini_array
- .text          0x100038f8       0x10 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
-                0x100038f8                atexit
- .text          0x10003908       0x78 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
-                0x10003908                __register_exitproc
- .text.startup  0x10003980       0x18 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x100037e0       0x3c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+                0x100037e0                flash_get_unique_id
+ .text          0x1000381c       0x48 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
+                0x1000381c                srand
+                0x10003830                rand
+ .text          0x10003864       0x5c /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+                0x10003864                strlen
+ .text          0x100038c0       0x28 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+                0x100038c0                __libc_fini_array
+ .text          0x100038e8       0x10 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+                0x100038e8                atexit
+ .text          0x100038f8       0x78 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x100038f8                __register_exitproc
+ .text.startup  0x10003970       0x18 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
  *(.fini)
- .fini          0x10003998        0x4 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
-                0x10003998                _fini
- *fill*         0x1000399c        0x4 
- .fini.__stub   0x100039a0       0xa0 linker stubs
+ .fini          0x10003988        0x4 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+                0x10003988                _fini
+ *fill*         0x1000398c        0x4 
+ .fini.__stub   0x10003990       0xa0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3412,193 +3412,193 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x10003a40                        . = ALIGN (0x4)
-                0x10003a40                        PROVIDE (__preinit_array_start = .)
+                0x10003a30                        . = ALIGN (0x4)
+                0x10003a30                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x10003a40        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10003a40                __pre_init_runtime_init_early_resets
+                0x10003a30        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10003a30                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x10003a44        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10003a44                __pre_init_runtime_init_usb_power_down
+                0x10003a34        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10003a34                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x10003a48        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                0x10003a38        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
  .preinit_array.00300
-                0x10003a4c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x10003a3c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
  .preinit_array.00350
-                0x10003a50        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x10003a40        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
  .preinit_array.00350
-                0x10003a54        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+                0x10003a44        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
  .preinit_array.00500
-                0x10003a58        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10003a58                __pre_init_runtime_init_clocks
+                0x10003a48        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10003a48                __pre_init_runtime_init_clocks
  .preinit_array.00600
-                0x10003a5c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10003a5c                __pre_init_runtime_init_post_clock_resets
+                0x10003a4c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10003a4c                __pre_init_runtime_init_post_clock_resets
  .preinit_array.00700
-                0x10003a60        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10003a60                __pre_init_runtime_init_rp2040_gpio_ie_disable
+                0x10003a50        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10003a50                __pre_init_runtime_init_rp2040_gpio_ie_disable
  .preinit_array.01000
-                0x10003a64        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10003a64                __pre_init_runtime_init_spin_locks_reset
+                0x10003a54        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10003a54                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01100
-                0x10003a68        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
-                0x10003a68                __pre_init_runtime_init_mutex
+                0x10003a58        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x10003a58                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x10003a6c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10003a6c                __pre_init_runtime_init_install_ram_vector_table
+                0x10003a5c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10003a5c                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x10003a70        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
-                0x10003a70                __pre_init_runtime_init_default_alarm_pool
+                0x10003a60        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x10003a60                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x10003a74        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x10003a74                __pre_init_first_per_core_initializer
+                0x10003a64        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x10003a64                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x10003a78        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x10003a78                __pre_init_runtime_init_per_core_irq_priorities
+                0x10003a68        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x10003a68                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x10003a7c                        PROVIDE (__preinit_array_end = .)
-                0x10003a7c                        . = ALIGN (0x4)
-                0x10003a7c                        PROVIDE (__init_array_start = .)
+                0x10003a6c                        PROVIDE (__preinit_array_end = .)
+                0x10003a6c                        . = ALIGN (0x4)
+                0x10003a6c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x10003a7c        0x4 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x10003a6c        0x4 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
  *(.init_array)
- .init_array    0x10003a80        0x4 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x10003a84        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-                0x10003a88                        PROVIDE (__init_array_end = .)
-                0x10003a88                        . = ALIGN (0x4)
-                0x10003a88                        PROVIDE (__fini_array_start = .)
+ .init_array    0x10003a70        0x4 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x10003a74        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+                0x10003a78                        PROVIDE (__init_array_end = .)
+                0x10003a78                        . = ALIGN (0x4)
+                0x10003a78                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x10003a88                        PROVIDE (__fini_array_end = .)
+                0x10003a78                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x10003a88        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10003a88                        . = ALIGN (0x4)
+ .eh_frame      0x10003a78        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10003a78                        . = ALIGN (0x4)
 
-.glue_7         0x10003a88        0x0
- .glue_7        0x10003a88        0x0 linker stubs
+.glue_7         0x10003a78        0x0
+ .glue_7        0x10003a78        0x0 linker stubs
 
-.glue_7t        0x10003a88        0x0
- .glue_7t       0x10003a88        0x0 linker stubs
+.glue_7t        0x10003a78        0x0
+ .glue_7t       0x10003a78        0x0 linker stubs
 
-.vfp11_veneer   0x10003a88        0x0
- .vfp11_veneer  0x10003a88        0x0 linker stubs
+.vfp11_veneer   0x10003a78        0x0
+ .vfp11_veneer  0x10003a78        0x0 linker stubs
 
-.v4_bx          0x10003a88        0x0
- .v4_bx         0x10003a88        0x0 linker stubs
+.v4_bx          0x10003a78        0x0
+ .v4_bx         0x10003a78        0x0 linker stubs
 
-.iplt           0x10003a88        0x0
- .iplt          0x10003a88        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10003a78        0x0
+ .iplt          0x10003a78        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10003a88      0x3c8
+.rodata         0x10003a78      0x3c8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.str1.4
-                0x10003a88      0x12c CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10003a78      0x12c CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
                                  0x1f (size before relaxing)
  .rodata.__compound_literal.0
-                0x10003bb4        0x2 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
- *fill*         0x10003bb6        0x2 
+                0x10003ba4        0x2 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+ *fill*         0x10003ba6        0x2 
  .rodata.desc_configuration
-                0x10003bb8       0x22 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
-                0x10003bb8                desc_configuration
- *fill*         0x10003bda        0x2 
+                0x10003ba8       0x22 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10003ba8                desc_configuration
+ *fill*         0x10003bca        0x2 
  .rodata.desc_hid_report
-                0x10003bdc       0xef CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
-                0x10003bdc                desc_hid_report
- *fill*         0x10003ccb        0x1 
+                0x10003bcc       0xef CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10003bcc                desc_hid_report
+ *fill*         0x10003cbb        0x1 
  .rodata.desc_device
-                0x10003ccc       0x12 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
-                0x10003ccc                desc_device
+                0x10003cbc       0x12 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x10003cbc                desc_device
  .rodata.panic.str1.4
-                0x10003cde       0x12 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x10003cce       0x12 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
  .rodata.spin_lock_claim_unused.str1.4
-                0x10003cde       0x1b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x10003cce       0x1b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x10003cde       0x22 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x10003cce       0x22 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
  .rodata.hard_assertion_failure.str1.4
-                0x10003cde        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x10003cce        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .rodata.str1.4
-                0x10003cde       0x48 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- *fill*         0x10003cde        0x2 
+                0x10003cce       0x48 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ *fill*         0x10003cce        0x2 
  .rodata.__bi_84
-                0x10003ce0        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003cd0        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_78
-                0x10003cec        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003cdc        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_60
-                0x10003cf8        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003ce8        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_54
-                0x10003d04        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003cf4        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_48
-                0x10003d10        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003d00        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_42
-                0x10003d1c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003d0c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_34
-                0x10003d28        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003d18        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_26
-                0x10003d34        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003d24        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.crlf_str.0
-                0x10003d40        0x2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10003d30        0x2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .rodata.str1.4
-                0x10003d42       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x10003d32       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
  .rodata.str1.4
-                0x10003d42       0x48 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- *fill*         0x10003d42        0x2 
+                0x10003d32       0x48 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ *fill*         0x10003d32        0x2 
  .rodata.tud_task_ext
-                0x10003d44       0x8c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
- .rodata        0x10003dd0       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10003d34       0x8c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+ .rodata        0x10003dc0       0x1c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
  .rodata._usbd_driver
-                0x10003dec       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x10003ddc       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
  .rodata.hidd_control_xfer_cb
-                0x10003e0c       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x10003dfc       0x30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
  .rodata.str1.4
-                0x10003e3c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x10003e2c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
  .rodata.__bi_153.0
-                0x10003e3c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x10003e2c        0xc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
  .rodata.__bi_163.1
-                0x10003e48        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
-                0x10003e50                        . = ALIGN (0x4)
+                0x10003e38        0x8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x10003e40                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10003e50                        . = ALIGN (0x4)
+                0x10003e40                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10003e50                        __exidx_start = .
+                0x10003e40                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10003e50                        __exidx_end = .
-                0x10003e50                        . = ALIGN (0x4)
-                0x10003e50                        __binary_info_start = .
+                0x10003e40                        __exidx_end = .
+                0x10003e40                        . = ALIGN (0x4)
+                0x10003e40                        __binary_info_start = .
 
-.binary_info    0x10003e50       0x28
+.binary_info    0x10003e40       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x10003e50        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e40        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr78
-                0x10003e54        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e44        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr60
-                0x10003e58        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e48        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr54
-                0x10003e5c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e4c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr48
-                0x10003e60        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e50        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr42
-                0x10003e64        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e54        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr34
-                0x10003e68        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e58        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr26
-                0x10003e6c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10003e5c        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .binary_info.keep.__bi_ptr163
-                0x10003e70        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x10003e60        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
  .binary_info.keep.__bi_ptr153
-                0x10003e74        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x10003e64        0x4 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
  *(.binary_info.*)
-                0x10003e78                        __binary_info_end = .
+                0x10003e68                        __binary_info_end = .
 
-.rel.dyn        0x10003e78        0x0
- .rel.iplt      0x10003e78        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10003e78                        . = ALIGN (0x4)
+.rel.dyn        0x10003e68        0x0
+ .rel.iplt      0x10003e68        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10003e68                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -3612,7 +3612,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0     0x10b8 load address 0x10003e78
+.data           0x200000c0     0x10b8 load address 0x10003e68
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3720,23 +3720,23 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x20001178                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20001178        0x0 load address 0x10004f30
+                0x20001178        0x0 load address 0x10004f20
  .tm_clone_table
                 0x20001178        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20001178        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20001178        0x0 load address 0x10004f30
+.igot.plt       0x20001178        0x0 load address 0x10004f20
  .igot.plt      0x20001178        0x0 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x20001178        0x0 load address 0x10004f30
+.tdata          0x20001178        0x0 load address 0x10004f20
                 0x20001178                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20001178                        __tdata_end = .
                 0x20001178                        PROVIDE (__data_end__ = .)
-                0x10003e78                        __etext = LOADADDR (.data)
+                0x10003e68                        __etext = LOADADDR (.data)
 
-.tbss           0x20001178        0x0 load address 0x10004f30
+.tbss           0x20001178        0x0 load address 0x10004f20
                 0x20001178                        . = ALIGN (0x4)
                 0x20001178                        __bss_start__ = .
                 0x20001178                        __tls_base = .
@@ -3744,7 +3744,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.tcommon)
                 0x20001178                        __tls_end = .
 
-.bss            0x20001178      0xde8 load address 0x10004f30
+.bss            0x20001178      0xde8 load address 0x10004f20
                 0x20001178                        . = ALIGN (0x4)
                 0x20001178                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3840,26 +3840,26 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *fill*         0x20001f5d        0x3 
                 0x20001f60                        __bss_end__ = .
 
-.heap           0x20001f60      0x800 load address 0x10004f30
+.heap           0x20001f60      0x800 load address 0x10004f20
                 0x20001f60                        __end__ = .
                 0x20001f60                        end = __end__
  *(.heap*)
  .heap          0x20001f60      0x800 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x10004f30
+.scratch_x      0x20040000        0x0 load address 0x10004f20
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10004f30                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10004f20                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10004f30
+.scratch_y      0x20041000        0x0 load address 0x10004f20
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10004f30                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10004f20                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -3868,9 +3868,9 @@ LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
-.flash_end      0x10004f30        0x0
+.flash_end      0x10004f20        0x0
  *(.embedded_end_block*)
-                0x10004f30                        PROVIDE (__flash_binary_end = .)
+                0x10004f20                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4167,65 +4167,65 @@ LOAD linker stubs
  .comment       0x0000004c       0x27 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
  .comment       0x0000004c       0x27 /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x00000000    0x32338
- .debug_info    0x00000000      0xa80 CMakeFiles/mouse-jiggler.dir/main.c.o
- .debug_info    0x00000a80      0xaad CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
- .debug_info    0x0000152d     0x23fd CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_info    0x0000392a      0x111 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
- .debug_info    0x00003a3b      0x1bf CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_info    0x00003bfa      0x989 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_info    0x00004583      0x444 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_info    0x000049c7      0x239 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_info    0x00004c00     0x21c7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_info    0x00006dc7      0x153 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_info    0x00006f1a     0x27a9 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_info    0x000096c3      0x2fc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
- .debug_info    0x000099bf     0x4fd6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
- .debug_info    0x0000e995     0x2ad7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_info    0x0001146c     0x193b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_info    0x00012da7     0x2955 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_info    0x000156fc      0x4cd CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_info    0x00015bc9      0x230 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_info    0x00015df9      0x654 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_info    0x0001644d      0x1b8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_info    0x00016605      0x20e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_info    0x00016813      0x77d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_info    0x00016f90      0x769 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_info    0x000176f9       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_info    0x0001771c       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_info    0x0001773f       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_info    0x00017762      0x25a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_info    0x000179bc       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_info    0x000179df       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_info    0x00017a03       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_info    0x00017a26      0x25a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_info    0x00017c80       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_info    0x00017ca3       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_info    0x00017cc6      0x2b2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_info    0x00017f78     0x22da CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_info    0x0001a252       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_info    0x0001a275      0xb54 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_info    0x0001adc9     0x1d30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_info    0x0001caf9     0x14b7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_info    0x0001dfb0     0x2ac8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_info    0x00020a78     0x1128 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_info    0x00021ba0     0x4921 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
- .debug_info    0x000264c1      0xb1e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
- .debug_info    0x00026fdf     0x1f27 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
- .debug_info    0x00028f06     0x1e5c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
- .debug_info    0x0002ad62     0x280d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_info    0x0002d56f     0x13cc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
- .debug_info    0x0002e93b      0x1f5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_info    0x0002eb30     0x12b8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
- .debug_info    0x0002fde8       0x3c /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x0002fe24      0x787 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
- .debug_info    0x000305ab       0xeb /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
- .debug_info    0x00030696      0x746 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-impure.o)
- .debug_info    0x00030ddc       0xf7 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_info    0x00030ed3      0xec6 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
- .debug_info    0x00031d99      0x11e /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_info    0x00031eb7      0x1fd /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
- .debug_info    0x000320b4      0x284 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+.debug_info     0x00000000    0x32334
+ .debug_info    0x00000000      0xa7c CMakeFiles/mouse-jiggler.dir/main.c.o
+ .debug_info    0x00000a7c      0xaad CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+ .debug_info    0x00001529     0x23fd CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_info    0x00003926      0x111 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
+ .debug_info    0x00003a37      0x1bf CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_info    0x00003bf6      0x989 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_info    0x0000457f      0x444 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_info    0x000049c3      0x239 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_info    0x00004bfc     0x21c7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_info    0x00006dc3      0x153 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_info    0x00006f16     0x27a9 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_info    0x000096bf      0x2fc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
+ .debug_info    0x000099bb     0x4fd6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+ .debug_info    0x0000e991     0x2ad7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_info    0x00011468     0x193b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_info    0x00012da3     0x2955 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_info    0x000156f8      0x4cd CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_info    0x00015bc5      0x230 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_info    0x00015df5      0x654 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_info    0x00016449      0x1b8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_info    0x00016601      0x20e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_info    0x0001680f      0x77d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_info    0x00016f8c      0x769 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_info    0x000176f5       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_info    0x00017718       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_info    0x0001773b       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_info    0x0001775e      0x25a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_info    0x000179b8       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_info    0x000179db       0x24 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_info    0x000179ff       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_info    0x00017a22      0x25a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_info    0x00017c7c       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_info    0x00017c9f       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_info    0x00017cc2      0x2b2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_info    0x00017f74     0x22da CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_info    0x0001a24e       0x23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_info    0x0001a271      0xb54 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_info    0x0001adc5     0x1d30 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_info    0x0001caf5     0x14b7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_info    0x0001dfac     0x2ac8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_info    0x00020a74     0x1128 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_info    0x00021b9c     0x4921 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+ .debug_info    0x000264bd      0xb1e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_info    0x00026fdb     0x1f27 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+ .debug_info    0x00028f02     0x1e5c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+ .debug_info    0x0002ad5e     0x280d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_info    0x0002d56b     0x13cc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+ .debug_info    0x0002e937      0x1f5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_info    0x0002eb2c     0x12b8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_info    0x0002fde4       0x3c /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0002fe20      0x787 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
+ .debug_info    0x000305a7       0xeb /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+ .debug_info    0x00030692      0x746 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-impure.o)
+ .debug_info    0x00030dd8       0xf7 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_info    0x00030ecf      0xec6 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
+ .debug_info    0x00031d95      0x11e /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_info    0x00031eb3      0x1fd /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_info    0x000320b0      0x284 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_abbrev   0x00000000     0x91e9
  .debug_abbrev  0x00000000      0x302 CMakeFiles/mouse-jiggler.dir/main.c.o
@@ -4288,97 +4288,97 @@ LOAD linker stubs
  .debug_abbrev  0x0000900f      0x1da /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_loclists
-                0x00000000    0x1b6af
+                0x00000000    0x1b5d5
  .debug_loclists
-                0x00000000      0x391 CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x00000000      0x2b7 CMakeFiles/mouse-jiggler.dir/main.c.o
  .debug_loclists
-                0x00000391      0x121 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x000002b7      0x121 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
  .debug_loclists
-                0x000004b2     0x1ac0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x000003d8     0x1ac0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_loclists
-                0x00001f72       0x53 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
+                0x00001e98       0x53 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
  .debug_loclists
-                0x00001fc5      0x349 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x00001eeb      0x349 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
  .debug_loclists
-                0x0000230e      0x108 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x00002234      0x108 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
  .debug_loclists
-                0x00002416       0x7d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x0000233c       0x7d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
  .debug_loclists
-                0x00002493     0x11ed CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x000023b9     0x11ed CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
  .debug_loclists
-                0x00003680       0x41 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
+                0x000035a6       0x41 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
  .debug_loclists
-                0x000036c1      0xaec CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x000035e7      0xaec CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
  .debug_loclists
-                0x000041ad       0xb6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
+                0x000040d3       0xb6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
  .debug_loclists
-                0x00004263     0x27df CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x00004189     0x27df CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
  .debug_loclists
-                0x00006a42     0x19f1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x00006968     0x19f1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
  .debug_loclists
-                0x00008433      0xc90 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+                0x00008359      0xc90 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
  .debug_loclists
-                0x000090c3     0x2b6f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x00008fe9     0x2b6f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
  .debug_loclists
-                0x0000bc32      0x1e0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+                0x0000bb58      0x1e0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
  .debug_loclists
-                0x0000be12       0x47 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+                0x0000bd38       0x47 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
  .debug_loclists
-                0x0000be59      0x351 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x0000bd7f      0x351 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
  .debug_loclists
-                0x0000c1aa       0x48 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+                0x0000c0d0       0x48 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
  .debug_loclists
-                0x0000c1f2       0x7e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x0000c118       0x7e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .debug_loclists
-                0x0000c270       0xba CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x0000c196       0xba CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
  .debug_loclists
-                0x0000c32a       0x74 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+                0x0000c250       0x74 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
  .debug_loclists
-                0x0000c39e       0x3d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+                0x0000c2c4       0x3d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
  .debug_loclists
-                0x0000c3db       0x59 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+                0x0000c301       0x59 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
  .debug_loclists
-                0x0000c434     0x355f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x0000c35a     0x355f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .debug_loclists
-                0x0000f993      0x431 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x0000f8b9      0x431 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
  .debug_loclists
-                0x0000fdc4      0xf51 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x0000fcea      0xf51 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .debug_loclists
-                0x00010d15      0x75b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x00010c3b      0x75b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .debug_loclists
-                0x00011470     0x1bde CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x00011396     0x1bde CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
  .debug_loclists
-                0x0001304e      0x719 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+                0x00012f74      0x719 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
  .debug_loclists
-                0x00013767     0x2197 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x0001368d     0x2197 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
  .debug_loclists
-                0x000158fe      0x45e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x00015824      0x45e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
  .debug_loclists
-                0x00015d5c     0x1461 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x00015c82     0x1461 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
  .debug_loclists
-                0x000171bd      0xf80 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+                0x000170e3      0xf80 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
  .debug_loclists
-                0x0001813d     0x1fdb CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+                0x00018063     0x1fdb CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
  .debug_loclists
-                0x0001a118      0x3a5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x0001a03e      0x3a5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
  .debug_loclists
-                0x0001a4bd      0x3d5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+                0x0001a3e3      0x3d5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
  .debug_loclists
-                0x0001a892      0x92a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+                0x0001a7b8      0x92a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
  .debug_loclists
-                0x0001b1bc       0x36 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
+                0x0001b0e2       0x36 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
  .debug_loclists
-                0x0001b1f2       0x57 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+                0x0001b118       0x57 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
  .debug_loclists
-                0x0001b249       0x2c /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+                0x0001b16f       0x2c /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
  .debug_loclists
-                0x0001b275      0x1dd /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
+                0x0001b19b      0x1dd /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
  .debug_loclists
-                0x0001b452       0x2b /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+                0x0001b378       0x2b /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
  .debug_loclists
-                0x0001b47d       0xff /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+                0x0001b3a3       0xff /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
  .debug_loclists
-                0x0001b57c      0x133 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x0001b4a2      0x133 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_aranges  0x00000000     0x1728
  .debug_aranges
@@ -4499,165 +4499,165 @@ LOAD linker stubs
                 0x00001700       0x28 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_rnglists
-                0x00000000     0x46c1
+                0x00000000     0x4691
  .debug_rnglists
-                0x00000000       0x98 CMakeFiles/mouse-jiggler.dir/main.c.o
+                0x00000000       0x68 CMakeFiles/mouse-jiggler.dir/main.c.o
  .debug_rnglists
-                0x00000098       0x40 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+                0x00000068       0x40 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
  .debug_rnglists
-                0x000000d8      0x5d0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+                0x000000a8      0x5d0 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
  .debug_rnglists
-                0x000006a8       0x13 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
+                0x00000678       0x13 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
  .debug_rnglists
-                0x000006bb       0x19 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x0000068b       0x19 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
  .debug_rnglists
-                0x000006d4       0xb6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x000006a4       0xb6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
  .debug_rnglists
-                0x0000078a       0x58 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x0000075a       0x58 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
  .debug_rnglists
-                0x000007e2       0x3d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x000007b2       0x3d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
  .debug_rnglists
-                0x0000081f      0x37d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x000007ef      0x37d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
  .debug_rnglists
-                0x00000b9c       0x1f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
+                0x00000b6c       0x1f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
  .debug_rnglists
-                0x00000bbb      0x325 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x00000b8b      0x325 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
  .debug_rnglists
-                0x00000ee0       0x2b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
+                0x00000eb0       0x2b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
  .debug_rnglists
-                0x00000f0b      0x7e2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+                0x00000edb      0x7e2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
  .debug_rnglists
-                0x000016ed      0x2c6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x000016bd      0x2c6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
  .debug_rnglists
-                0x000019b3      0x259 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+                0x00001983      0x259 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
  .debug_rnglists
-                0x00001c0c      0x5af CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x00001bdc      0x5af CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
  .debug_rnglists
-                0x000021bb       0x5c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+                0x0000218b       0x5c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
  .debug_rnglists
-                0x00002217       0x2b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+                0x000021e7       0x2b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
  .debug_rnglists
-                0x00002242      0x112 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x00002212      0x112 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
  .debug_rnglists
-                0x00002354       0x1f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+                0x00002324       0x1f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
  .debug_rnglists
-                0x00002373       0x3d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x00002343       0x3d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .debug_rnglists
-                0x000023b0       0x49 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x00002380       0x49 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
  .debug_rnglists
-                0x000023f9       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+                0x000023c9       0x20 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
  .debug_rnglists
-                0x00002419       0x43 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                0x000023e9       0x43 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
  .debug_rnglists
-                0x0000245c       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x0000242c       0x2c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
  .debug_rnglists
-                0x00002488       0xf9 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x00002458       0xf9 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
  .debug_rnglists
-                0x00002581       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+                0x00002551       0x14 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
  .debug_rnglists
-                0x00002595       0x99 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x00002565       0x99 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
  .debug_rnglists
-                0x0000262e       0xe5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+                0x000025fe       0xe5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
  .debug_rnglists
-                0x00002713       0x13 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+                0x000026e3       0x13 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
  .debug_rnglists
-                0x00002726       0x38 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+                0x000026f6       0x38 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
  .debug_rnglists
-                0x0000275e       0x25 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x0000272e       0x25 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
  .debug_rnglists
-                0x00002783      0x2a2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x00002753      0x2a2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .debug_rnglists
-                0x00002a25       0x1b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+                0x000029f5       0x1b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
  .debug_rnglists
-                0x00002a40       0x7f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x00002a10       0x7f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
  .debug_rnglists
-                0x00002abf      0x2bb CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x00002a8f      0x2bb CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .debug_rnglists
-                0x00002d7a      0x1ce CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+                0x00002d4a      0x1ce CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
  .debug_rnglists
-                0x00002f48      0x425 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+                0x00002f18      0x425 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
  .debug_rnglists
-                0x0000336d       0xe8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+                0x0000333d       0xe8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
  .debug_rnglists
-                0x00003455      0x5f6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+                0x00003425      0x5f6 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
  .debug_rnglists
-                0x00003a4b       0x8e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+                0x00003a1b       0x8e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
  .debug_rnglists
-                0x00003ad9      0x164 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+                0x00003aa9      0x164 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
  .debug_rnglists
-                0x00003c3d      0x210 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+                0x00003c0d      0x210 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
  .debug_rnglists
-                0x00003e4d      0x3d3 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+                0x00003e1d      0x3d3 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
  .debug_rnglists
-                0x00004220       0xf7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+                0x000041f0       0xf7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
  .debug_rnglists
-                0x00004317       0x70 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+                0x000042e7       0x70 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
  .debug_rnglists
-                0x00004387      0x29d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+                0x00004357      0x29d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
  .debug_rnglists
-                0x00004624       0x6d /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
+                0x000045f4       0x6d /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
  .debug_rnglists
-                0x00004691       0x30 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+                0x00004661       0x30 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
-.debug_line     0x00000000    0x215b0
- .debug_line    0x00000000      0x591 CMakeFiles/mouse-jiggler.dir/main.c.o
- .debug_line    0x00000591      0x2d7 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
- .debug_line    0x00000868     0x1b9f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_line    0x00002407      0x1a1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
- .debug_line    0x000025a8      0x1d1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_line    0x00002779      0x7ef CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_line    0x00002f68      0x3f5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_line    0x0000335d      0x2e8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_line    0x00003645     0x164e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_line    0x00004c93      0x213 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_line    0x00004ea6     0x1a1e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_line    0x000068c4      0x336 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
- .debug_line    0x00006bfa     0x33bc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
- .debug_line    0x00009fb6     0x1bde CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_line    0x0000bb94      0xe82 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
- .debug_line    0x0000ca16     0x1fe5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_line    0x0000e9fb      0x40c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_line    0x0000ee07      0x272 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_line    0x0000f079      0x3c1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_line    0x0000f43a      0x27b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_line    0x0000f6b5      0x258 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_line    0x0000f90d      0x44e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_line    0x0000fd5b      0x442 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_line    0x0001019d      0x107 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_line    0x000102a4      0x2a9 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_line    0x0001054d      0x452 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_line    0x0001099f      0x3ac CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_line    0x00010d4b      0x66d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_line    0x000113b8       0x61 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_line    0x00011419      0x3d2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_line    0x000117eb      0x2c1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_line    0x00011aac      0x195 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
- .debug_line    0x00011c41       0x94 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_line    0x00011cd5      0x145 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_line    0x00011e1a     0x1be7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_line    0x00013a01       0xa5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_line    0x00013aa6      0x74a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x000141f0     0x1302 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x000154f2      0xc72 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
- .debug_line    0x00016164     0x1cd5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_line    0x00017e39      0xb26 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_line    0x0001895f     0x2700 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
- .debug_line    0x0001b05f      0x5be CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
- .debug_line    0x0001b61d      0xc23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
- .debug_line    0x0001c240     0x10f8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
- .debug_line    0x0001d338     0x1966 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_line    0x0001ec9e      0x993 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
- .debug_line    0x0001f631      0x554 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_line    0x0001fb85      0xa95 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
- .debug_line    0x0002061a       0x4a /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x00020664      0x199 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
- .debug_line    0x000207fd      0x1ae /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
- .debug_line    0x000209ab       0xeb /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-impure.o)
- .debug_line    0x00020a96       0xd1 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
- .debug_line    0x00020b67      0x592 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
- .debug_line    0x000210f9       0xca /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
- .debug_line    0x000211c3      0x167 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
- .debug_line    0x0002132a      0x286 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
+.debug_line     0x00000000    0x2157d
+ .debug_line    0x00000000      0x55e CMakeFiles/mouse-jiggler.dir/main.c.o
+ .debug_line    0x0000055e      0x2d7 CMakeFiles/mouse-jiggler.dir/usb_descriptors.c.o
+ .debug_line    0x00000835     0x1b9f CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_line    0x000023d4      0x1a1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2040/pico_platform/platform.c.o
+ .debug_line    0x00002575      0x1d1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_line    0x00002746      0x7ef CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_line    0x00002f35      0x3f5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_line    0x0000332a      0x2e8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_line    0x00003612     0x164e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_line    0x00004c60      0x213 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_line    0x00004e73     0x1a1e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_line    0x00006891      0x336 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_sync/critical_section.c.o
+ .debug_line    0x00006bc7     0x33bc CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/common/pico_time/time.c.o
+ .debug_line    0x00009f83     0x1bde CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_line    0x0000bb61      0xe82 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+ .debug_line    0x0000c9e3     0x1fe5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_line    0x0000e9c8      0x40c CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_line    0x0000edd4      0x272 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_line    0x0000f046      0x3c1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_line    0x0000f407      0x27b CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_line    0x0000f682      0x258 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_line    0x0000f8da      0x44e CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_line    0x0000fd28      0x442 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_line    0x0001016a      0x107 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_line    0x00010271      0x2a9 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_line    0x0001051a      0x452 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_line    0x0001096c      0x3ac CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_line    0x00010d18      0x66d CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_line    0x00011385       0x61 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_line    0x000113e6      0x3d2 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_line    0x000117b8      0x2c1 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_line    0x00011a79      0x195 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+ .debug_line    0x00011c0e       0x94 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_line    0x00011ca2      0x145 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_line    0x00011de7     0x1be7 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_line    0x000139ce       0xa5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_line    0x00013a73      0x74a CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_line    0x000141bd     0x1302 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x000154bf      0xc72 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+ .debug_line    0x00016131     0x1cd5 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_line    0x00017e06      0xb26 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_line    0x0001892c     0x2700 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+ .debug_line    0x0001b02c      0x5be CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_line    0x0001b5ea      0xc23 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+ .debug_line    0x0001c20d     0x10f8 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/tusb.c.o
+ .debug_line    0x0001d305     0x1966 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_line    0x0001ec6b      0x993 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o
+ .debug_line    0x0001f5fe      0x554 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_line    0x0001fb52      0xa95 CMakeFiles/mouse-jiggler.dir/usr/src/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+ .debug_line    0x000205e7       0x4a /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00020631      0x199 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-rand.o)
+ .debug_line    0x000207ca      0x1ae /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-strlen-stub.o)
+ .debug_line    0x00020978       0xeb /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-impure.o)
+ .debug_line    0x00020a63       0xd1 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-fini.o)
+ .debug_line    0x00020b34      0x592 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-findfp.o)
+ .debug_line    0x000210c6       0xca /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-atexit.o)
+ .debug_line    0x00021190      0x167 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__atexit.o)
+ .debug_line    0x000212f7      0x286 /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-__call_atexit.o)
 
 .debug_str      0x00000000     0x954d
  .debug_str     0x00000000     0x954d CMakeFiles/mouse-jiggler.dir/main.c.o
