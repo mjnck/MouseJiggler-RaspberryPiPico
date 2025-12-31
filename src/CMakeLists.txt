@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(PICO_SDK_PATH $ENV{PICO_SDK_PATH})
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
-include(pico_sdk_import.cmake)
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 project(mouse-jiggler C CXX ASM)
 

@@ -96,8 +96,8 @@ static void send_hid_report(uint8_t report_id)
   if ( !tud_hid_ready() ) return;
 
   // get the direction
-  randX = 10 + rand() % 41;
-  randY = 10 + rand() % 41;
+  randX = 1 + rand() % 6;
+  randY = 1 + rand() % 6;
   randDirection = rand() % 2;
   if (randDirection)
   {
@@ -133,7 +133,7 @@ void hid_task(void)
 // Invoked when sent REPORT successfully to host
 // Application can use this to send the next report
 // Note: For composite reports, report[0] is report ID
-void tud_hid_report_complete_cb(uint8_t instance, uint8_t const* report, uint8_t len)
+void tud_hid_report_complete_cb(uint8_t instance, uint8_t const* report, uint16_t len)
 {
   (void) instance;
   (void) len;
